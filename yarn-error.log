@@ -1,0 +1,63 @@
+Arguments: 
+  C:\Users\kmocorro\AppData\Roaming\npm\node_modules\node\bin\node.exe C:\Users\kmocorro\AppData\Roaming\npm\node_modules\@sanity\cli\vendor\yarn install --json --non-interactive --ignore-engines --registry https://registry.npmjs.org
+
+PATH: 
+  C:\Users\kmocorro\kdm\sanity\node_modules\.bin;C:\Users\kmocorro\kdm\node_modules\.bin;C:\Users\kmocorro\node_modules\.bin;C:\Users\node_modules\.bin;C:\node_modules\.bin;C:\Users\kmocorro\AppData\Roaming\npm\node_modules\node\bin;C:\Users\kmocorro\AppData\Roaming\npm;C:\Program Files\nodejs\;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Java\jre1.8.0_201\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Users\kmocorro\AppData\Local\Android\Sdk\platform-tools;C:\Users\kmocorro\AppData\Local\Microsoft\WindowsApps;C:\Users\kmocorro\AppData\Local\Programs\Microsoft VS Code\bin;
+
+Yarn version: 
+  1.6.0
+
+Node version: 
+  12.18.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmjs.org/date-fns/-/date-fns-2.16.1.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (C:\Users\kmocorro\AppData\Roaming\npm\node_modules\@sanity\cli\vendor\yarn:133816:19)
+      at Object.onceWrapper (events.js:421:28)
+      at ClientRequest.emit (events.js:315:20)
+      at TLSSocket.emitRequestTimeout (_http_client.js:709:9)
+      at Object.onceWrapper (events.js:421:28)
+      at TLSSocket.emit (events.js:327:22)
+      at TLSSocket.Socket._onTimeout (net.js:481:8)
+      at listOnTimeout (internal/timers.js:549:17)
+      at processTimers (internal/timers.js:492:7)
+
+npm manifest: 
+  {
+    "name": "sanityprojectzeron",
+    "private": true,
+    "version": "1.0.0",
+    "description": "",
+    "main": "package.json",
+    "author": "kd <kevinmocorro.github@gmail.com>",
+    "license": "UNLICENSED",
+    "scripts": {
+      "start": "sanity start",
+      "test": "sanity check"
+    },
+    "keywords": [
+      "sanity"
+    ],
+    "dependencies": {
+      "@sanity/base": "^2.0.4",
+      "@sanity/components": "^2.0.4",
+      "@sanity/core": "^2.0.1",
+      "@sanity/default-layout": "^2.0.4",
+      "@sanity/default-login": "^2.0.1",
+      "@sanity/desk-tool": "^2.0.4",
+      "@sanity/vision": "^2.0.1",
+      "prop-types": "^15.6",
+      "react": "^16.2",
+      "react-dom": "^16.2"
+    },
+    "devDependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
